@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 
 ::-moz-selection {
   color: #f8f8f8;
@@ -15,7 +16,7 @@
       background: #f8f8f8;
       color: #ff568e;
       font-size:30x;
-      font-family: "Jacquard 12", sans-serif;
+      font-family: "Jersey 10", sans-serif;
     -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
     }
@@ -111,15 +112,7 @@
       align-items: center;
     }
 
-    .title, .title2 {
-      letter-spacing:1.2px;
-      font-family: "Jacquard 12"; 
-    }
-
-    .title {
-        font-size:30px;
-    }
-
+    
     .hold { height:0px; width:100%;}
     .title2 { text-align:center;
         font-size:34px;
