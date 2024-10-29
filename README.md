@@ -15,3 +15,5 @@ add ons:
 ss of organization for key things
 links to ethical coding stuff
 importatnce of committing and how it helped me risk stuff
+
+show comaprison between collapsed and uncollapsed code
