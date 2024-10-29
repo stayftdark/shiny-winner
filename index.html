@@ -38,17 +38,17 @@
         <div class="heightsec"></div>
         <!--Navigation Links-->
         <div class="nav">
-            <button class="tablinks" onclick="openCity(event, 'welcome')" id="defaultOpen"><span>home</span></button>
-            <button class="tablinks" onclick="openCity(event, 'borders')"><span><span class="sm">borders<span class="smtr">&nbsp;</span>+</span></span></button>
-            <button class="tablinks" onclick="openCity(event, 'text')"><span>text</span></button>
-            <button class="tablinks" onclick="openCity(event, 'misc')"><span>misc</span></button>
+            <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen"><span>home</span></button>
+            <button class="tablinks" onclick="openCity(event, 'content')"><span><span class="sm">borders<span class="smtr">&nbsp;</span>+</span></span></button>
+            <button class="tablinks" onclick="openCity(event, 'key idea')"><span>text</span></button>
+            <button class="tablinks" onclick="openCity(event, 'm + c')"><span>misc</span></button>
             <button class="tablinks" onclick="openCity(event, 'links')"><span>links</span></button>
-            <button class="tablinks active" onclick="openCity(event, 'creator')"><span>creator</span></button>
+            <button class="tablinks active" onclick="openCity(event, 'challenges')"><span>creator</span></button>
         </div>
         <div class="heightsec"></div>
 
         <!--Welcome Page (01)-->
-        <div id="welcome" class="tabcontent" style="display: none;">
+        <div id="home" class="tabcontent" style="display: none;">
             <div class="title">Asha's 2024 Honors Development Project</div>
            <div id="myDiv">
             Made using CSS, HTML, and Javascript. Layout made with Flexbox.      
@@ -57,7 +57,7 @@
         </div>
 
         <!--Border Page (02)-->
-        <div id="borders" class="tabcontent" style="display: none;">
+        <div id="content" class="tabcontent" style="display: none;">
             <div class="title">What is it?</div>
            <div id="myDiv">
             An Interative website that demonstrates the use of flexbox and provides resources for others to follow the path of becoming a web developer.   
@@ -66,7 +66,7 @@
         </div>
 
         <!--Text Page (03)-->
-        <div id="text" class="tabcontent" style="display: none;">
+        <div id="key idea" class="tabcontent" style="display: none;">
             <div class="title">Key Idea</div>
            <div id="myDiv">
             1. Flexbox (Most difficult aspect and most integral to the completion of this project"<br>
@@ -76,7 +76,7 @@
         </div>
      
         <!--Misc Page (04)-->
-        <div id="misc" class="tabcontent" style="display: none;">
+        <div id="m + c" class="tabcontent" style="display: none;">
             <div class="flex2">
                 <div class="line1">
                     
@@ -235,7 +235,6 @@ prenexIcons.forEach(icon => {
 });
 </script>
 
-<a href="https://pastebin.com/j71RczBU">code here</a> or <a href="https://pastebin.com/YSuqBkg9">version without arrows</a>
 
                 </div>
                 
@@ -246,78 +245,34 @@ prenexIcons.forEach(icon => {
         <div id="links" class="tabcontent" style="display: none;">
 
 
-            <div class="title"><span class="emphtitle">Basics</span></div>
+            <div class="title">Links</div>
             <ul>
-              <li><a href="https://www.w3schools.com/">w3schools</a> - basic coding stuff, with easy to understand tutorials</li>
-              <li><a href="https://developer.mozilla.org/en-US/">mdn web docs</a> - a good html/css/js reference site</li>
+              <li><a href="loveberry.neocities.org/">june</a> -Layout Inspiration</li>
+              <li><a href="https://pastebin.com/PiDgrv3J/">adeline</a> - Music Player </li>
               <li><a href="https://stackoverflow.com/tags">stack overflow</a> - a board where people can ask coding related questions, I reccomend looking through the site for your question <b>first</b> before asking</li>
-              <li><a href="https://jsfiddle.net/">jsfiddle</a> - like codepen but you don't need an account</li>
               <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks guide to flexbox</a></li>
               <li><a href="https://websitesetup.org/css3-cheat-sheet/">css cheat sheet</a></li>
             </ul>
-            <br>
-            <div class="title"><span class="emphtitle">Generators</span></div>
-            <ul>
-              <li><a href="https://boxshadows.xyz/">box shadow</a></li>
-              <li><a href="http://owumaro.github.io/text-stroke-generator/">text stroke</a></li>
-              <li><a href="https://generators.shecodes.io/css-transform-generator">transform and more</a></li>
-              <li><a href="https://www.useragentman.com/matrix/#">3d matrix</a></li>
-              <li><a href="https://9elements.github.io/fancy-border-radius/full-control">fancy border radius</a></li>
-              <li><a href="https://webcatz.neocities.org/resources/span-ify">span-ify</a> - puts span tags around each character</li>
-              <li><a href="https://bennettfeely.com/clippy/">css clip path maker</a></li>
-              <li><a href="https://cssgradient.io">css gradient</a></li>
-              <li><a href="https://www.lipsum.com/">lorem ipsum placeholder text</a></li>
-              <li><a href="https://www.stuffbydavid.com/textcolorizer">span text gradient</a></li>
-              <li><a href="https://kovart.github.io/dashed-border-generator/">dashed border generator</a></li>
-              <li><a href="https://neumorphism.io/#e0e0e0">neumorphism css box generator</a></li>
-            </ul>
     
             <br>
-            
-            <div class="title"><span class="emphtitle">Template-y stuff</span></div>
-            <ul>
-              <li><a href="https://goblin-heart.net/sadgrl/projects/layout-builder/">sadgrl layout builder</a></li>
-              <li><a href="https://templaterr.neocities.org/">templaterr</a></li>
-              <li><a href="https://limegreen.neocities.org/templates/wikitable/wikitable">wikitable layout</a></li>
-              <li><a href="https://websetsbylynn.neocities.org/">websets by lynn</a></li>
-              <li><a href="https://zonelets.net/">zonelets</a> - add blog posts to your site</li>
-              <li><a href="https://rarebit.neocities.org/">rarebits</a> - webcomic template</li>
-              <li><a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a></li>
-              <li><a href="https://eggramen.neocities.org/code/css_testpages">eggramen css test pages</a></li>
-            </ul>
-    
-            <br>
-            <div class="title"><span class="emphtitle">Snippets</span></div>
-            <ul><li><a href="https://layouts.spacehey.com/layout?id=85996#/">working nintendo ds</a></li>
-              <li><a href="https://gifypet.neocities.org/">gify pet</a></li>
-              <li><a href="https://tamanotchi.world/">tamanotchi</a></li>
-              <li><a href="https://webneko.net/">web neko cursor</a></li>
-              <li><a href="https://www.imood.com/">imood</a></li>
-              <li><a href="https://status.cafe/">status cafe</a></li>
-              <li><a href="https://pollcode.com/">poll code</a></li>
-            </ul>
-    
-            <br>
-            <div class="title"><span class="emphtitle">Cool libraries</span></div>
+            <div class="title"><span class="emphtitle">Cool Websites</span></div>
             <ul>            
-            <li><a href="https://khang-nd.github.io/7.css/">7.css</a></li>
-            <li><a href="https://botoxparty.github.io/XP.css/">xp.css</a></li>
-            <li><a href="https://jdan.github.io/98.css/">98.css</a></li>
-            <li><a href="https://sakofchit.github.io/system.css/">system css</a></li>
-            <li><a href="https://michalsnik.github.io/aos/">animate on scroll</a></li>
+            <li><a href="https://hadaka.jp/">Parallax Website (Japan) </a></li>
+            <li><a href="https://brutalistwebsites.com/">Brutalist Websites</a></li>
+            <li><a href="https://neocities.org/">neocities</a></li>
+            <li><a href="https://jdan.github.io/98.css/">Old Microsoft UI maker</a></li>
             </ul>
     
             <br>
             <div class="title"><span class="emphtitle">Coding programs</span></div>
             <ul>
-              <li><a href="https://code.visualstudio.com/">visual studio code</a> - what I use, with the <a href="https://marketplace.visualstudio.com/items?itemName=kostasx.live-html-previewer-v2">live html &amp; js previewer v2</a></li>
-              <li><a href="https://brackets.io/">brackets</a></li>
+              <li><a href="https://code.visualstudio.com/">visual studio code</a> - what I use</a></li>
+              <li><a href="https://theodinproject.com/">the odin project</a></li>
             </ul>
     
             <br>
             <div class="title"><span class="emphtitle">Fonts</span></div>
             <ul>
-              <li><a href="https://www.dafont.com/">da font</a></li>
               <li><a href="https://fonts.google.com/">google fonts</a></li>
               <li><a href="https://archive.org/download/Fontworks/">a list of free fontworks fonts</a></li>
               <li><a href="https://fontcity.neocities.org/">fontcity</a></li>
@@ -325,46 +280,19 @@ prenexIcons.forEach(icon => {
               <li><a href="https://www.tumblr.com/gayocto-rey/712271192135008256/official-splatoon-fonts-complete-with-kanji">splatoon one and two fonts</a></li>
             </ul>
             
-            <br>
-            <div class="title"><span class="emphtitle">Graphics</span></div>
-            <ul>
-              <li><a href="https://blinkies.cafe/">blinkies cafe</a></li>
-              <li><a href="https://gifcities.org/?q=">gifcities</a></li>
-              <li><a href="https://99gifshop.neocities.org/">99gifshop</a></li>
-  
-            </ul>
-  
-            <br>
-            <div class="title"><span class="emphtitle">Misc</span></div>
-            <ul>
-              <li><a href="https://www.deadlinkchecker.com/website-dead-link-checker.asp">dead link checker</a></li>
-              <li><a href="http://www.unit-conversion.info/texttools/replace-text/">text replacer</a></li>
-              <li><a href="https://meyerweb.com/eric/tools/color-blend/#:::hex">color blender</a></li>
-              <li><a href="https://www.spriters-resource.com/">spriters resource</a></li>
-              <li><a href="http://embedresponsively.com/">embed responsively</a></li>
-              <li><a href="https://nekoweb.org/">nekoweb</a> - a neocities alternative</li>
-              <li><a href="https://www.webdesignmuseum.org/">webdesignmuseum</a></li>
-            </ul>
-
+        
+          
         </div>
-        <div id="creator" class="tabcontent" style="display: block;">
-
-            <div class="creaflex">
-                <div class="creahold">
-                    <div class="creatoricon"></div>
-                    <div class="hold"><div class="title2">June(bug)</div></div>
-                </div>
-                <div class="meow">
-                    Howdy! I'm June, affectionately nicknamed "junebug" by some, and I curate this little
-                    gallery of things. I'm an adult (he or they pronouns)
-                    who loves to code stuff in his free time... I also in general
-                    just like creating things and making lists :3 I'm a silly guy
-                    who loves to ramble about my interests (the shrines on my main
-                    site are a wip i promise).
-                    you can find my main site <a href="https://layercake.neocities.org/">on neocities</a>,
-                    my little sandbox where I'm usually sculpting something either
-                    really good or devestatingly awful.. who knows, it is up to the fates</div>
+        <div id="challenges" class="tabcontent" style="display: block;">
+            <div id="welcome" class="tabcontent" style="display: none;">
+                <div class="title">Asha's 2024 Honors Development Project</div>
+               <div id="myDiv">
+                Made using CSS, HTML, and Javascript. Layout made with Flexbox.      
             </div>
+               <div class="chibis"></div>
+            </div>
+    
+          
 
         </div>
             </div>
