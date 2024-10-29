@@ -21,7 +21,11 @@
 
 
 }
-.pixel {
-    width: 300px;
-    height: 300px;
+
+.zoomed-out {
+    transform: scale(0.5); /* 50% of the original size */
+    transform-origin: center center; /* Set the origin point of the scale */
+    /* Optionally, add width and height for layout control */
+    width: auto;
+    height: auto;
 }
