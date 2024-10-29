@@ -1,0 +1,11 @@
+#myDiv {
+    font-size: 30px;
+}
+.title, .title2 {
+    letter-spacing:1.2px;
+    font-family: "Jacquard 12"; 
+  }
+
+  .title {
+      font-size:60px;
+  }
